@@ -24,8 +24,8 @@ class LangmanServiceProvider extends ServiceProvider
         $this->app->bind(Manager::class, function () {
             return new Manager(
                 new Filesystem,
-                $this->app['config']['langman.path'],
-                array_merge($this->app['config']['view.paths'], [$this->app['path']])
+                config('langman.path'),
+                array_merge(config('view.paths'), [app_path()])
             );
         });
 
