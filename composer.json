@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spimpolari\\Langman\\": "src"
+            "spimpolari\\Langman\\": "src"
         },
         "classmap": [
             "tests"
