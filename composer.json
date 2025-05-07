@@ -1,5 +1,5 @@
 {
-    "name": "ttensrl/laravel-langman",
+    "name": "spimpolari/laravel-langman",
     "description": "Manage language files with ease.",
     "keywords": ["laravel", "localization", "multilingual"],
     "homepage": "https://github.com/spimpolari/laravel-langman",
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "spimpolari\\Langman\\": "src"
+            "Spimpolari\\Langman\\": "src"
         },
         "classmap": [
             "tests"
